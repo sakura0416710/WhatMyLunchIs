@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
 
       // 현재 인덱스 하이라이트
-      items[currentIndex].style.backgroundColor = "#e9caf1e0";
+      items[currentIndex].style.backgroundColor = "#f3db8ae0";
 
       currentIndex = (currentIndex + 1) % items.length;
       round++;
